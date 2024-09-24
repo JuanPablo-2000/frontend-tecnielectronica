@@ -6,14 +6,11 @@
   "scripts": {
     "prepare": "npm install",
     "start": "vite",
-    "install": "npm install --legacy-peer-deps",
-    "build": "npm run install && vite build",
+    "install": "npm install --legacy-peer-deps && npm run build",
+    "build": "vite build",
     "dev": "vite",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
-  },
-  "engines": {
-    "node": ">=20.x"
   },
   "dependencies": {
     "@emotion/react": "^11.11.1",
