@@ -6,7 +6,7 @@
   "scripts": {
     "prepare": "npm install",
     "start": "vite",
-    "install": "npm install --legacy-peer-deps && npm run build",
+    "install": "npm install && npm run build",
     "build": "vite build",
     "dev": "vite",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
