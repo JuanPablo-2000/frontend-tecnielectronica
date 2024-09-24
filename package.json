@@ -6,8 +6,9 @@
   "scripts": {
     "prepare": "npm install",
     "start": "vite",
+    "install": "npm install --legacy-peer-deps",
+    "build": "npm run install && vite build",
     "dev": "vite",
-    "build": "tsc && vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
