@@ -4,7 +4,6 @@ export default class LoginServices {
     authentication(body: any) {
         return new Promise(async (resolve, reject) => {
             try {
-                console.log(this.URL_API);
                 const response = await fetch(`${this.URL_API}`, {
                     method: "POST",
                     body: JSON.stringify(body),

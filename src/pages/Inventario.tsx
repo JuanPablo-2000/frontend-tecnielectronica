@@ -237,7 +237,6 @@ export const Inventario = () => {
             nota: data.nota,
           };
         } else {
-          console.log(data);
           body = {
             code: data.code.toUpperCase(),
             product: data.product.toUpperCase(),
@@ -247,7 +246,6 @@ export const Inventario = () => {
             salida: Number(data.salida),
             nota: data.nota,
           };
-          console.log(body);
           
         }
       }

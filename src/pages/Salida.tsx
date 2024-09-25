@@ -112,8 +112,6 @@ export const Salida = () => {
         creado: data.creado,
       };
 
-      console.log(body);
-
       const response = await service.createSalida(body);
 
       setSalida([...salida, response]);
